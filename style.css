@@ -1,0 +1,339 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background: #121315;
+}
+.header {
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	z-index: 1;
+}
+.header div{
+	float: left;
+}
+ .header-in-logo{
+     width: 55%;
+     height: 200px;
+ }
+    .header-in-logo img{
+    	max-width: 100%;
+    	max-height: 100%;
+    	margin-left: 10%;
+    	margin-right: 10%;
+
+    }
+ .header-in-search{
+     width: 45%;
+     height: 200px;
+ }
+     .header-in-search input{
+     	width: 70%;
+     	height: 26%;
+     	margin-left: 10%;
+     	margin-top: 10%;
+     	background: white;
+     	box-shadow: 0 0 2px rgb(0,0,0,0.3);
+     }
+ .left-menu-div{
+ 	width:20%;
+ 	height: 100%;
+ 	float:left;
+ 	margin-top: 200px;
+ 	position: fixed;
+ 	z-index: 0;
+ 	padding-left: 8px;
+ 	padding-top: 7px;
+ }
+     .left-menu-div ul{
+     	list-style: none;
+     }
+        .left-menu-div ul li{
+     	width: 95%;
+     	font-size: 18px;
+     	color: white;
+     	padding-left: 10px;
+     	padding-top: 10px;
+     	cursor: pointer;
+     }
+        .left-menu-div ul li ul{
+        	width: 90%;
+     	    font-size: 13px;
+     		color: white;
+     		padding-left: 15px;
+     		padding-top: 3px;
+     		cursor: pointer;
+        }
+        .left-menu-div ul li ul:hover{
+        	width: 90%;
+     	    font-size: 13px;
+     		color: white;
+     		padding-left: 15px;
+     		padding-top: 3px;
+     		background: #121315;
+     		cursor: pointer;
+        }
+     .left-menu-div ul li:hover{
+     	width: 95%;
+     	padding-left: 10px;
+     	padding-top: 10px;
+     	color: white;
+     	background: #121315;
+     	cursor: pointer;
+     }
+     .left-menu-div ul li i a{
+ 			color: white;
+ 		}
+        .whiteBtr{
+        	background: white;
+        	color: #121315 !important;
+        }
+ .main-block{
+ 	width: 80%;
+    float: left;
+    background: #EDEDED;
+    margin-left: 20%;
+    margin-top: 200px;
+    padding-bottom: 10px;
+ }
+ .main-in-block{
+ 	width: 95%;
+ 	height: 110%;
+ 	background: #EDEDED;
+ 	margin-left: 2.5%;
+ 	margin-right: 2.5%;
+ 	margin-top: 10px;
+ 	box-shadow: 0 0 2px rgb(0,0,0,0.3);
+ }
+ .wrp{
+    width:1150px;
+    margin:0 auto;
+    margin-top:20px;
+    height:100%;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    border-radius:5px;
+}
+.player, .song{
+    position:relative;
+    width:1130px;
+    height:200px;
+    padding:10px;
+    margin:0 0 10px 0;
+    background:#FFFF;
+    box-shadow:0 10px 0 rgba(0,0,0,0.2);
+    border-radius:5px 5px 0 0;
+}
+.play-pause,.play-pause_song{
+    float:left;
+    background:#FAF9F9 url(play-pause.jpg) no-repeat;
+    background-size:250px;
+    width:120px;
+    height:120px;
+    border-radius:50px;
+}
+.nameSong,.settings,.nameSong_song{
+    position:absolute;
+    background:white;
+    color:#121315;
+    padding:5px;
+    top:14px;
+    left:460px;
+    font-size:28px;
+}
+.settings{
+    left:130px;
+}
+	.settings div{
+    	float:left;
+    	background:white;
+    	margin-right:5px;
+	}
+.mute, .volume{
+    font-size:18px;
+    margin:0 10px;
+}
+.bar{
+    position:relative;
+    float:left;
+    background:rgba(0,0,0,0.0);
+    width:650px;
+    height:30px;
+    margin:20px;
+    margin-left:35px;
+    margin-top:80px;
+    padding:0;
+    overflow:hidden;
+}
+.setTime{
+    position:absolute;
+    top:0;
+    background:white;
+    color:#121315;
+    font-size:12px;
+    padding:3px;
+    display:none;
+}
+.range,.progress,.load{
+    height:10px;
+    margin:25px 0;
+    padding:0;
+    width:100%
+}
+.progress,.load{
+    position:absolute;
+    top:0;
+    left:-100%
+}
+.range{
+    background:#9D9999;
+}
+.progress{
+    background:#4A4949;
+    z-index:3;
+}
+.load{
+    background:#E1DADA;
+}
+
+.equalizer {
+  background: white;
+  text-align: center;
+  float: left;
+  vertical-align: bottom;
+  margin-left: 70px;
+  width: 160px;
+}
+
+.column {
+  width: 20px;
+  margin: 3px;
+}
+#purple, #blue, #cyan, #green, #yellow {
+	vertical-align:bottom;
+	display: inline-block;
+	box-shadow: 5px 5px 5px;
+}
+
+#purple {
+  height: 50px;
+  background-color: #121111;
+}
+
+#blue {
+  height: 140px;
+  background-color: #0E0B0B;
+}
+
+#cyan {
+  height: 100px;
+  background-color: #211B1B;
+}
+
+#green {
+  height: 140px;
+  background-color: #343131;
+}
+
+#yellow {
+  height: 100px;
+  background-color: #484545;
+}
+
+.time,.duration_song{
+    float:left;
+    background:white;
+    font-size:20px;
+    margin:15px 0 0 15px;
+    color:black;
+}
+.range,.play-pause,.song,.sledbtn,.mute {
+	cursor: pointer;
+}
+.song{
+	width: 98%;
+	height:50px;
+	background:white;
+	color:black;
+	float:left;
+	border-radius:0;
+}
+.play-pause_song{
+	background:white url(play-pause.jpg) no-repeat;
+	background-size:100px;
+	background-position:left;
+	width:46px;
+	height:46px;
+}
+.nameSong_song,.duration_song{
+    font-size:22px;
+    background:white;
+}
+.nameSong_song{
+	top:20px;
+	left:100px;
+}
+.download {
+	background:url(download.jpg) no-repeat;
+	background-size:40px;
+	float:right;
+	width:40px;
+	height:40px;
+}
+.duration_song{
+	float:right;
+	margin-top:5px;
+}
+ .footer{
+    width: 80%;
+    height: 90px;
+    float: left;
+    background: #121315;
+    margin-left: 20%;
+    color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+ }
+ 	.footer ul{
+ 		list-style: none;
+ 	}
+ 		.footer ul li{
+ 			display: inline-block;
+ 			border-bottom: 3px solid white;
+ 			padding-bottom: 5px;
+ 			margin-right: 20px;
+ 			cursor: pointer;
+ 			color: white;
+ 		}
+ 		.footer ul li i a{
+ 			color: white;
+ 		}
+.img {
+	width: 60px;
+	height: 50px;
+}
+.fa-instagram {
+	content: '\f16d';
+     	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+     	font-weight: 900;
+     	margin-right:5px;
+}
+.fa-facebook {
+	content: '\f09a';
+     	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+     	font-weight: 900;
+     	margin-right:5px;
+}
+.fa-soundcloud {
+	content: '\f1be';
+     	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+     	font-weight: 900;
+     	margin-right:5px;
+}
+.fa-youtube {
+	content: '\f167';
+     	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+     	font-weight: 900;
+     	margin-right:5px;
+}
